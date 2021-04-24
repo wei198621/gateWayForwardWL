@@ -1,0 +1,21 @@
+gateway:
+  port: 7089
+  protocol: tiza1.0
+  socketprotocol: udp
+
+forward:
+  gateway:
+    host: 10.3.12.43
+    port: 7089
+
+
+    #host: 192.168.1.162
+    #port: 7100
+    #host: 192.168.1.121
+    #port: 7100
+    #host: 10.3.12.44
+    #port: 8089
+    #host: 10.3.12.44
+    #port: 8090
+    #host: 10.3.9.44
+    #port: 8090

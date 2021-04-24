@@ -1,0 +1,14 @@
+gateway:
+  port: 4321
+  protocol: tiza1.1
+  socketprotocol: udp
+
+forward:
+  gateway:
+    host: 192.168.1.121
+    port: 7110
+
+    #host: 192.168.1.164
+    #port: 7110
+    #host: 192.168.1.121
+    #port: 7110
